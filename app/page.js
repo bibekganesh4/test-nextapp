@@ -21,6 +21,9 @@ export default function Home() {
             <p className="md:py-2 text-gray-600 m-auto">
               Your money is safe with us!
             </p>
+            <p className="text-xl font-bold md:py-2 text-gray-600 m-auto">
+              Developed by Bibek Kumar Ganesh
+            </p>
           </div>
         </div>
       </div>
