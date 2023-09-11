@@ -1,6 +1,8 @@
 import TypedMain from "./components/TypedMain";
 
+
 export default function Home() {
+
   return (
     <main>
       <div className="w-full h-screen text-center shadow-lg">
@@ -22,7 +24,7 @@ export default function Home() {
               Your money is safe with us!
             </p>
             <p className="text-xl font-bold md:py-2 text-gray-600 m-auto">
-              Developed by Bibek Kumar Ganesh
+              Developed by {process.env.DEVELOPER_NAME}
             </p>
           </div>
         </div>
